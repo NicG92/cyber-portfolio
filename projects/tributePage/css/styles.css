@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+}
+
+main {
+    background-color: darkgray;
+    text-align: center;
+    font-size: 3.5vw;
+}
+
+#image {
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+ul {
+    padding: 0;
+    margin-top: 0;
+}
+
+li {
+    padding: 0.5% 0;
+}
+
+figure {
+    position: relative;
+    left: 25%;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+#title h1 {
+    margin: 0 auto;
+    font-size: 9vw;
+}
+
+#title p {
+    margin-top: 0;
+    font-size: 4vw;
+}
+
+#img-caption {
+    font-size: 2.6vw;
+}
+
+h3 {
+    font-size: 5vw;
+    margin-bottom: 0;
+}
+
+blockquote {
+    background-color: lightgray;
+    border-radius: 5px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+blockquote p, blockquote cite {
+    font-size: 2.8vw;
+}
+
+hr {
+    border: 1px dotted lightgray;
+    width: 70%;
+}
+
+#explore {
+    padding-bottom: 2%;
+}
+
+#tribute-link {
+    text-decoration: none;
+    color: black;
+    background-color: darkorange;
+    border-radius: 5px;
+    padding: 0 2%;
+}
+
+#tribute-link:hover {
+    color: darkorange;
+    background-color: lightgray;
+}

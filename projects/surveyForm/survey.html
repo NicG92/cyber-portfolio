@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div style="width: 60%; margin-left: 20%; text-align: center;">
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to complete our suvrey. We will use your feedback to help improve our platform.</p>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name:</label>
+      <br>
+      <input type="text" id="name" placeholder="Enter your name..." required>
+      <br>
+      <label for="email" id="email-label">Email:</label>
+      <br>
+      <input type="email" id="email" placeholder="Enter your email address..." required> 
+      <br>
+      <label for="number" id="number-label">Enter a number between 1 and 5:</label>
+      <br>
+      <input type="number" id="number" min="1" max="5" placeholder="Enter a number between 1 and 5...">
+      <br>
+      <label for="dropdown" id="select-label">Select an option:</label>
+      <br>
+      <select id="dropdown">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+      </select>
+      <br>
+      <label for="fbutton" id="button-label">Select your favourite button</label>
+      <br>
+      <input type="radio" name="favButton" id="fb1" value="Button1">
+      <label for="fb1">Button 1</label>
+      <br>
+      <input type="radio" name="favButton" id="fb2" value="Button2">
+      <label for="fb2">Button 2</label>
+      <br>
+      <label for="animal1" id="check-label">Which of these animals do you like?</label>
+      <br>
+      <input type="checkbox" id="animal1" name="animal1" value="cat">
+      <label for="animal1">Cat</label>
+      <br>
+      <input type="checkbox" id="animal2" name="animal2" value="dog">
+      <label for="animal2">Dog</label>
+      <br>
+      <input type="checkbox" id="animal3" name="animal3" value="bird">
+      <label for="animal3">Bird</label>
+      <br>
+      <label for="ftext" id="text-label">Write a story if you like...</label>
+      <br>
+      <textarea id="ftext" name="story" placeholder="Your story goes here..."></textarea>
+      <br>
+      <input type="submit" id="submit">
+    </form>
+  </div>
+</body>
+
+</html>

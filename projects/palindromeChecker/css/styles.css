@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+#main {
+    width: 50%;
+    height: 50%;
+}
+
+#checker {
+    background-color: white;
+    color: black;
+}
+
+#explanation {
+    background-color: darkorange;
+}
+
+.inner-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    padding: 2%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: darkorange;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#checker > label {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#checker > input {
+    width: 60%;
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 0.8em;
+    border: solid 1px darkorange;
+}
+
+#checker > button {
+    width: 90px;
+    border: solid 1px darkorange;
+    background-color: white;
+    color: darkorange;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+#checker > button:hover {
+    background-color: black;
+}
+
+#checker > div {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
