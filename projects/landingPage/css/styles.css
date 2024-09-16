@@ -34,7 +34,8 @@ main {
 }
 
 .logo {
-    width: 70%;
+    width: 30%;
+    margin-right: 40%;
 }
 
 .logo > img {
